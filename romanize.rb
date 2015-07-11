@@ -15,7 +15,7 @@ class Fixnum
         1 => "I",  
   }
 
-  def roman
+  def to_roman
     n = self
     roman = ""
     ROMAN_NUMBERS.each do |value, letter|
